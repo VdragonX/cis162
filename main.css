@@ -1,0 +1,31 @@
+body {
+     font-size: 20px;
+     color: #f0f0f0;
+     background-color: #5e5d5c;
+     width: 1920px;
+
+}
+h1, h2 {
+    font-size: 28px;
+    color: #8838ff;
+    background-color: #333230;
+    width: 1920px;
+}
+nav > ul {
+    font-size: 0.8em;
+    color: #f9f9f9;
+    background-color: #8b8882;
+    width: 1920px;
+}
+section {
+    font-size: 24px;
+    color: #f9f9f9;
+    background-color: #333230;
+    width: 1920px;
+}
+footer {
+    font-size: 20px;
+    color: #f9f9f9;
+    background-color: #8b8882;
+    width: 1920px;
+}
