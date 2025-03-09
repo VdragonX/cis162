@@ -1,31 +1,84 @@
+@charset "utf-8";
 body {
-     font-size: 20px;
-     color: #f0f0f0;
-     background-color: #5e5d5c;
-     width: 1920px;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+    color: #f0f0f0;
+    background-color: #5e5d5c;
+    width: 1366px;
+    display: block;
+    
 
 }
-h1, h2 {
+h1 {
+    text-align: center;
+}
+h1,h2 {
     font-size: 28px;
     color: #8838ff;
     background-color: #333230;
-    width: 1920px;
+    width: 1366px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    overflow: hidden;
+    text-align: auto;
 }
 nav > ul {
-    font-size: 0.8em;
+    font-size: 24px;
     color: #f9f9f9;
     background-color: #8b8882;
-    width: 1920px;
+    width: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    text-align: left; 
+    li {
+        display: inline-block;;
+        margin-left: auto; 
+        margin-right: auto;}
+    a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+        margin-left: auto; 
+        margin-right: auto;}
+        text-align: center;
+        text-transform: uppercase;
 }
 section {
     font-size: 24px;
     color: #f9f9f9;
     background-color: #333230;
-    width: 1920px;
+    width: 1366px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+
+
 }
+/* Left Column Styles */
+section#leftColumn {
+    float: left;
+    width: 50%;
+    
+
+}
+/* Right Column Styles */
+
+section#rightColumn {
+    float: right;
+    width: 50%;
+    
+
+}
+
 footer {
     font-size: 20px;
     color: #f9f9f9;
     background-color: #8b8882;
-    width: 1920px;
+    width: 1366px;
+    overflow: hidden;
 }
